@@ -58,7 +58,7 @@ export const ModalComponent = forwardRef<HTMLDivElement, IModalProps>(
       closeIconComponent,
     }: IModalProps,
     ref: any,
-  ): JSX.Element => {
+  ): React.ReactElement => {
     useEffect(() => {
       if (!disableTheme) {
         const attri = document.documentElement.getAttributeNames()

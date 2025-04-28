@@ -28,7 +28,7 @@ const CustomModalComponent = forwardRef<HTMLDivElement, IModalProps>(
       footer,
     }: IModalProps,
     ref,
-  ): JSX.Element => {
+  ): React.ReactElement => {
     const containerClasses = clsx('modal h-full', {
       'modal-open': open,
       'modal-bottom sm:modal-middle': responsive,

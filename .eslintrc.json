@@ -17,14 +17,22 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "react-hooks", "prettier","simple-import-sort"],
-  "ignorePatterns": ["**/*.js"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "prettier",
+    "simple-import-sort"
+  ],
+  "ignorePatterns": [
+    "**/*.js"
+  ],
   "rules": {
     "camelcase": "error",
     "no-duplicate-imports": "error",
     "@typescript-eslint/ban-ts-comment": "off",
-    "@typescript-eslint/no-explicit-any":"off",
-    "react/react-in-jsx-scope":"off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/react-in-jsx-scope": "off",
     "no-console": "error",
     "no-alert": "error",
     "react-hooks/exhaustive-deps": "off",
@@ -32,9 +40,9 @@
     "react/display-name": 0,
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
-    "@typescript-eslint/no-empty-function":"off",
-    "react/no-unknown-property":"off",
-    "react/no-unescaped-entities ":"off",
+    "@typescript-eslint/no-empty-function": "off",
+    "react/no-unknown-property": "off",
+    "react/no-unescaped-entities ": "off",
     "@typescript-eslint/no-unused-vars": "off"
   },
   "settings": {
@@ -42,7 +50,7 @@
       "typescript": {}
     },
     "react": {
-      "version": "detect" 
+      "version": "detect"
     }
   }
 }
