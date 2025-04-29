@@ -13,7 +13,7 @@
       },
       "require": "./dist/react-global-modal.umd.js"
     },
-    "./dist/style.css": "./dist/style.css"
+    "./dist/style.css": "./dist/react-global-modal.css"
   },
   "main": "./dist/react-global-modal.umd.js",
   "module": "./dist/react-global-modal.es.js",
